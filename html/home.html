@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>
-		Banking-App
-	</title>
-	<link rel="stylesheet" href="../css/home.css">
-	
-	<style>
-		.video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Quan trọng nhất */
-    z-index: -1; /* Để video nằm sau nội dung */
-}
-
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking-App</title>
 </head>
-
 <body>
-	<div class="video-container">
-		<video src="../video/Demo.mp4" autoplay loop muted></video>
-	</div>
+    <video autoplay loop muted src="../video/Demo.mp4"></video>
+    <!-- <h1>Test</h1> -->
 </body>
-
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    video{
+        width: 100%;
+        /* height: 100%; */
+    }
+</style>
 </html>
